@@ -3,7 +3,6 @@
 //
 
 #include<iostream>
-
 #ifndef LAB_ACTIVITY_H
 #define LAB_ACTIVITY_H
 
@@ -20,15 +19,12 @@ public:
     Activity(string name, string note);
 
     const string &getName() const;
-
     void setName(const string &name);
 
     const string &getNote() const;
-
     void setNote(const string &note);
 
     bool isStatus() const;
-
     void setStatus(bool status);
 
 };

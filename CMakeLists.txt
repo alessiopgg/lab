@@ -3,4 +3,4 @@ project(lab)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab main.cpp Activity.cpp Activity.h)
+add_executable(lab main.cpp Activity.cpp Activity.h List.cpp List.h)
